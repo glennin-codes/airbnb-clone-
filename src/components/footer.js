@@ -1,3 +1,7 @@
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+// import {} from '@fortawesome/free-solid-svg-icons'
+import {faFacebook,faGooglePlus,faLinkedin,faTwitter,faInstagram,faYoutube, faPinterest} from '@fortawesome/free-brands-svg-icons'
+
 
 import  './footer.css';
 export default  function Footer(){
@@ -55,12 +59,13 @@ export default  function Footer(){
     <div className='seperator column text-center'>
       <h2 className='margin-below-1'>Join Us on</h2>
       <div className='smedialinks'>
-      <i className="fa fa-facebook" aria-hidden="true"></i>
-      <i className="fa fa-google-plus" aria-hidden="true"></i>
-      <i className="fa fa-twitter" aria-hidden="true"></i>
-      <i className="fa fa-linkedin" aria-hidden="true"></i>
-      <i className="fa fa-instagram" aria-hidden="true"></i>
-      <i className="fa fa-pinterest-p" aria-hidden="true"></i>
+      <i> <FontAwesomeIcon icon={faFacebook} style={{color:"blue", backgroundColor:"blue",fontSize:"25px" }}></FontAwesomeIcon></i>
+      <i><FontAwesomeIcon icon={faTwitter} style={{color:"blue", backgroundColor:"blue",fontSize:"25px"}} ></FontAwesomeIcon></i>
+      <i> <FontAwesomeIcon icon={faLinkedin} style={{color:"blue", backgroundColor:"blue",fontSize:"25px" }}></FontAwesomeIcon></i>
+      <i><FontAwesomeIcon icon={faPinterest} style={{color:"blue", backgroundColor:"red",fontSize:"25px" }}></FontAwesomeIcon> </i>
+      <i><FontAwesomeIcon icon={faGooglePlus} style={{color:"white", backgroundColor:"brown",fontSize:"25px"}}></FontAwesomeIcon> </i>
+      <i><FontAwesomeIcon icon={faInstagram} style={{color:"white", backgroundColor:"crimson",fontSize:"25px"}}></FontAwesomeIcon> </i>
+      <i><FontAwesomeIcon icon={faYoutube} style={{color:"white", backgroundColor:"red",fontSize:"25px"}}></FontAwesomeIcon> </i>
       </div>
     </div>
   </div>
