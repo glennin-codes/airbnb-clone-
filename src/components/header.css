@@ -1,0 +1,37 @@
+.app--header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FF5A5F; 
+    padding: 20px 40px;
+    background-color:white;
+    margin-bottom: 120px;
+    position: fixed;
+    height: 100px;
+    width: 100vw;
+    top: 0;
+    margin-bottom: 90px;
+    box-shadow:0 0px 10px 10px black;
+    
+ }
+ .app--logo{
+    height:40px;
+    padding-left: 20px;
+    
+
+ }
+.app--name{
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.app--title a:hover{
+    text-decoration: underline;
+}
+ .app--header>.app--title{
+    margin-right: auto;
+    
+ }
+ .project--info{
+    margin-right: 120px;
+ }
